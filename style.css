@@ -1,0 +1,60 @@
+.header {
+  background-color: #adffbc;
+  padding: 20px 20px;
+}
+
+.services {
+  background-color: #e99898;
+  padding: 20px 20px;
+}
+
+.services .container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.about {
+  padding: 20px 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.daniel {
+  background-color: #aaaaa4;
+}
+
+.julia {
+  background-color: #e7c1c1;
+}
+
+.mohammad {
+  background-color: #a3aac4;
+}
+
+.values {
+    background-color: #a3f7b2;
+    padding: 20px 20px;
+}
+
+.values .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+  display: flex;
+}
+
+.footer {
+    background-color: aqua;
+    padding:20px 20px;
+    
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
