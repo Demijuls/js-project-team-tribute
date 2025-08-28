@@ -1,11 +1,76 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  /* scroll-behavior: smooth; add smooth scrolling */
+}
+
+body {
+  font-family: saira, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  padding:0 30px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 40px;
+  height: 80px;
+  align-items: center;
+}
+  
+.navigation ul li {
+  display: flex;
+  padding: 0px 0px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  transition: all 0.3s ease
+}  
+
+.navigation ul li a:hover {
+  color: white;
+  opacity: 1.5;
+  /* font-size: 18px; */
+  transform: scale(1.2);
+}
+
 .header {
-  background-color: #adffbc;
+  display: flex;
+  padding: 0px 0px 80px;
+  align-items: end;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+div:nth-of-type(2n+3) {
+  background-color: white;
+}
+
+/* :nth-child(odd) */
+/* :nth-child(even) */
+
+.services {
+  background-color:#fff;
   padding: 20px 20px;
 }
 
-.services {
-  background-color: #e99898;
-  padding: 20px 20px;
+.services p, h2 {
+ color: black;
 }
 
 .services .container {
@@ -14,40 +79,43 @@
   gap: 16px;
 }
 
+
 .about {
-  padding: 20px 20px;
+ 
   display: flex;
   gap: 16px;
 }
 
+/* <div id="services" class="services">  */
+
 .daniel {
-  background-color: #aaaaa4;
+
 }
 
 .julia {
-  background-color: #e7c1c1;
+
 }
 
 .mohammad {
-  background-color: #a3aac4;
+  
 }
 
-.values {
-    background-color: #a3f7b2;
+#values {
+
     padding: 20px 20px;
 }
 
-.values .container {
+#values .container {
     display: flex;
     flex-direction: column;
 }
 
 .content {
   display: flex;
+  gap: 16px;
 }
 
 .footer {
-    background-color: aqua;
     padding:20px 20px;
     
 }
@@ -58,3 +126,4 @@
     gap: 16px;
 
 }
+

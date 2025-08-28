@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -12,20 +15,22 @@
 <!-- Navigation-->
 
 <div class="navigation">
-  <ul>
-    <li>
-      <a href="#">Navigation item #1</a>
-    </li>
-    <li>
-      <a href="#">Navigation item #2</a>
-    </li>
-    <li>
-      <a href="#">Navigation item #3</a>
-    </li>
-    <li>
-      <a href="#">Navigation item #4</a>
-    </li>
-  </ul>
+  <div class="inner">
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#team">About us</a>
+      </li>
+      <li>
+        <a href="#values">Values</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <!-- /Navigation-->
@@ -33,114 +38,123 @@
 <!-- Header -->
 
 <div class="header">
-  <h1>Let there be Rock</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quasi at obcaecati tempore delectus dolores nam cum! Nostrum doloribus voluptas est, iure harum unde modi quisquam minima vero, totam veniam!</p>
+  <div class="inner">
+    <h1>Let there be Rock</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quasi at obcaecati tempore delectus dolores nam cum! Nostrum doloribus voluptas est, iure harum unde modi quisquam minima vero, totam veniam!</p>
+  </div>
 </div>
 
 <!-- /Header-->
 
 <!-- Section: Pictures small-->
  
-<div class="services"> 
-  <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
-  <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
-  <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
-    
-  <!-- /Pictures small-->
+<div id="services" class="services"> 
+  <div class="inner">
+    <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
+    <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
+    <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
+      
+    <!-- /Pictures small-->
 
-  <div class="container">
+    <div class="container">
 
-      <!-- Section: Service 1 -->
+        <!-- Section: Service 1 -->
 
-      <div class="service service_1" >
-        <h2>CSS</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis enim voluptas impedit eum. Similique ipsa obcaecati a adipisci consectetur qui placeat dolore voluptates aliquam! Illo quidem excepturi porro ducimus reprehenderit?</p>
-       </div>
-        
-      <!-- /Section: Service 1-->
+        <div class="service service_1" >
+          <h2>HTML</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis enim voluptas impedit eum. Similique ipsa obcaecati a adipisci consectetur qui placeat dolore voluptates aliquam! Illo quidem excepturi porro ducimus reprehenderit?</p>
+        </div>
+          
+        <!-- /Section: Service 1-->
 
-      <!-- Section: Service 2-->
+        <!-- Section: Service 2-->
 
-      <div class="service service_2">
-        <h2>HTML</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem blanditiis iste veniam a tempora natus esse temporibus asperiores, accusantium libero dolorum eveniet sunt doloremque assumenda quam! Natus, neque laborum! Quis.</p>
-      </div>
+        <div class="service service_2">
+          <h2>CSS</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem blanditiis iste veniam a tempora natus esse temporibus asperiores, accusantium libero dolorum eveniet sunt doloremque assumenda quam! Natus, neque laborum! Quis.</p>
+        </div>
 
-      <!-- /Section: Service 2-->
+        <!-- /Section: Service 2-->
 
-      <!-- Section: Service 3-->
+        <!-- Section: Service 3-->
 
-      <div class="service service_3">
-        <h2>Javascript</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat placeat ut corrupti dignissimos. Doloremque, nisi quis. Distinctio magni nesciunt ex aperiam laborum ipsam eaque iste! Ducimus quis porro at.</p>
-      </div>
+        <div class="service service_3">
+          <h2>Javascript</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellat placeat ut corrupti dignissimos. Doloremque, nisi quis. Distinctio magni nesciunt ex aperiam laborum ipsam eaque iste! Ducimus quis porro at.</p>
+        </div>
 
-      <!-- /Secition: Service 3-->
+        <!-- /Secition: Service 3-->
 
+    </div>
   </div>
 </div>     
 
+<!-- Section: Team-->
+<div id="team">
+  <div class="inner">
+    <!-- Section: Daniel Main-->
+    <div class="about daniel"> 
+      <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
+      <div class="container daniel">
+        <h2>Daniel Lauding</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nesciunt ad tempore. Dicta ipsam unde, asperiores voluptatem dignissimos cupiditate, molestiae placeat blanditiis tempora, minima in libero corrupti fugit dolor cum.</p>
+      </div>
+    </div>
 
-<!-- Section: Daniel Main-->
+    <!-- /Section: Daniel Main-->
 
-<div class="about daniel"> 
-  <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
-  <div class="container daniel">
-    <h2>Daniel Lauding</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nesciunt ad tempore. Dicta ipsam unde, asperiores voluptatem dignissimos cupiditate, molestiae placeat blanditiis tempora, minima in libero corrupti fugit dolor cum.</p>
+    <!-- Section: Julia Main-->
+
+    <div class="about julia">
+      <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
+      <div class="container julia">
+        <h2>Julia Demianetc</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, autem iste! Cum, quibusdam. Consectetur quibusdam deserunt, numquam at eius accusantium impedit facilis error itaque aspernatur ducimus omnis nulla sapiente nostrum.</p>
+      </div>
+    </div>
+
+    <!-- /Section: Julia main-->
+
+    <!-- Section: Mohammad Main-->
+
+    <div class="about mohammad">
+      <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
+        <div class="container mohammad">
+        <h2>Mohammad Qabalany</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore incidunt voluptatum iure eos earum sapiente neque. Obcaecati ipsam aspernatur tempora error corporis laborum dolorem adipisci, odio aliquam esse. Cum.</p>
+      </div> 
+    </div> 
+    <!-- /Section: Mohammad-->
   </div>
 </div>
-
-<!-- /Section: Daniel Main-->
-
-<!-- Section: Julia Main-->
-
-<div class="about julia">
-  <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
-  <div class="container julia">
-    <h2>Julia Demianetc</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, autem iste! Cum, quibusdam. Consectetur quibusdam deserunt, numquam at eius accusantium impedit facilis error itaque aspernatur ducimus omnis nulla sapiente nostrum.</p>
-  </div>
-</div>
-
-<!-- /Section: Julia main-->
-
-<!-- Section: Mohammad Main-->
-
-<div class="about mohammad">
-  <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
-    <div class="container mohammad">
-    <h2>Mohammad Qabalany</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore incidunt voluptatum iure eos earum sapiente neque. Obcaecati ipsam aspernatur tempora error corporis laborum dolorem adipisci, odio aliquam esse. Cum.</p>
-  </div> 
-</div> 
-
-<!-- /Section: Mohammad-->
+<!-- /Section: Team-->
 
 
 <!-- Section: Values -->
 
-<div class="values"> 
-  <h3>Values</h3>
-  <div class="content">
-    <div class="container values">
+<div id="values">
+  <div class="inner">
+    <h3>Values</h3>
+    <div class="content">
+      <div class="container values">
+        <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
+      </div> 
+
+      <div class="container values">
+        <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
+      </div> 
+
+      <div class="container values">
+        <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
+      </div> 
+
+      <div class="container values">
       <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
-    </div> 
-
-    <div class="container values">
-      <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
-    </div> 
-
-    <div class="container values">
-      <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
-    </div> 
-
-    <div class="container values">
-    <img src="https://dummyimage.com/60x60/d4d4d4/000000" alt="">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente animi, esse rerum assumenda fugiat blanditiis! Labore error debitis doloremque repellat unde commodi amet nesciunt ex fuga culpa, consequuntur rerum!</p>
+      </div>
     </div>
   </div>
 </div> 
@@ -150,11 +164,13 @@
 <!-- Section: Footer-->
 
 <div class="footer"> 
+  <div class="inner">
       <div class="container footer">
-  <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
-  <h2>Let's Rock&Code</h2>
-</div>
-  <p>&copy;Team Rock3 2025</p>
+        <img src="https://dummyimage.com/300x300/d4d4d4/000000" alt="">
+        <h2>Let's Rock&Code</h2>
+      </div>
+    <p>&copy;Team Rock3 2025</p>
+    </div>
 </div>
 
 <!-- /Section: Footer-->
